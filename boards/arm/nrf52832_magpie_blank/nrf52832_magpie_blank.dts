@@ -75,3 +75,40 @@
 
 
 
+
+&i2c0 {
+	status = "disabled";
+};
+
+&i2c1 {
+	status = "disabled";
+};
+
+&i2s0 {
+	status = "disabled";
+};
+
+&spi0 {
+	status = "disabled";
+};
+
+&spi1 {
+	status = "disabled";
+};
+
+&spi2 {
+	status = "disabled";
+};
+
+&uart0 {
+	status = "disabled";
+	current-speed = <115200>;
+};
+
+&clock {
+	status = "okay";
+};
+
+&bprot {
+	status = "okay";
+};
